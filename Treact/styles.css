@@ -6,7 +6,7 @@
     color:#243e63;
 }
 h1{
-    font-size: 50px;
+    font-size: 48px;
     color:#1a202c;
     line-height: 1.25;
 }
@@ -26,11 +26,8 @@ body {
     overflow-x: hidden;
 }
 a {
-    font-weight: 500;
-    padding: 5px 5px;
-    position: relative;
-    text-decoration: none;
-    transition: opacity 300ms ease;
+    display: inline;
+    text-decoration: none
 }
 section {
     padding: 0 32px;
@@ -106,6 +103,11 @@ li {
 .Contact__William {
     color: #243e63;
     margin: 0 24px;
+    font-weight: 500;
+    padding: 4px 0;
+    position: relative;
+    text-decoration: none;
+    transition: opacity 300ms ease;
 }
 .Contact__William--purple:hover {
     color: #6415ff;
@@ -128,7 +130,7 @@ li {
 .login{
     color: #243e63;
     cursor: pointer;
-    font-weight: bold;
+    font-weight: 500;
     padding: 6px 12px;
     position: relative;
     text-decoration: none;
@@ -172,11 +174,9 @@ header .row{
     max-width: 768px;
 }
 .something1{
-    margin: 36px 0;
-    font-size: 19px;
+    font-size: 19.5px;
+    margin: 32px 0;
     margin-bottom: 28px;
-    line-height: 1.5
-
 }
 .header__email {
     width: 100%;
@@ -232,7 +232,7 @@ header .row{
 }
 .something6{
     margin-top: 80px;
-    font-size: 15px;
+    font-size: 13px;
     color: #a0aec0;
     font-weight: 700;
 }
@@ -240,9 +240,6 @@ header .row{
     opacity: 0.5;
     margin-top: 16px;
     padding-right: 128px;
-}
-.something8{
-
 }
 input::placeholder{
     color: #a0aec0;
