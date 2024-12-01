@@ -66,6 +66,10 @@ header {
     max-width: 1280px;
     margin: 0 auto;
 }
+.column{
+    display: flex;
+    flex-direction: column;
+}
 header .row{
     display: flex;
     align-items: center;
@@ -85,7 +89,6 @@ header .row{
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-    justify-content: space-between;
 }
 #Values .row{
     display: flex;
@@ -351,8 +354,12 @@ input::placeholder{
       transform: scale(1);
     }
 }
-.QWwfix{
+.Wfix{
     width: 100%;
+}
+.W2fix{
+    width: 50%;
+    padding-left: 60px;
 }
 .something13 {
     width: 60%;
@@ -372,6 +379,26 @@ input::placeholder{
 }
 .shadow{
     border: rgb(229, 231, 235) 1px solid ;
+}
+.something15{
+    font-size: 55px;
+    margin-top: 10px;
+}
+.something16{
+    display: flex;
+    padding: 20px 0;
+}
+.something17{
+    color:#cbd5e0;
+    margin-right: 14px;
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+.something18{
+    width: 350px;
+    margin-top: 10px;
+    color: rgb(124, 139, 161);
+    font-size: 16px;
 }
 .something60{
     width: 25%;
