@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color:#243e63;
 }
 h1{
     font-size: 48px;
@@ -16,7 +15,14 @@ h2{
     line-height: 1.25;
 }
 h3{
+    color:#243e63;
     font-size: 25px;
+    line-height: 1.25;
+}
+.h3sc{
+    font-size: 20px;
+    font-weight: 500;
+    color: #243e63;
     line-height: 1.25;
 }
 h4,h5,h6{
@@ -117,6 +123,10 @@ footer .row{
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+}
+#Contact{
+    color: white;
+    background-color: #6415ff;
 }
 .section-title{
     font-size: 16px;
@@ -222,7 +232,10 @@ li {
     transition: all 300ms ease;
 }
 .something {
-    width: 44.50%;
+    width: 43%;
+}
+.somethingv2{
+    width: 50%;
 }
 .purple-text{
     color: #6415ff;
@@ -243,6 +256,7 @@ li {
     font-size: 19.5px;
     margin: 32px 0;
     margin-bottom: 28px;
+    color: #243e63;
 }
 .header__email {
     width: 100%;
@@ -382,7 +396,7 @@ input::placeholder{
 }
 .something15{
     font-size: 55px;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 .something16{
     display: flex;
@@ -390,7 +404,7 @@ input::placeholder{
 }
 .something17{
     color:#cbd5e0;
-    margin-right: 14px;
+    margin-right: 18px;
     margin-bottom: 10px;
     font-size: 40px;
 }
@@ -399,6 +413,12 @@ input::placeholder{
     margin-top: 10px;
     color: rgb(124, 139, 161);
     font-size: 16px;
+}
+.something59{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 .something60{
     width: 25%;
