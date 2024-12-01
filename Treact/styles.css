@@ -15,12 +15,12 @@ h2{
     color: #243e63;
     line-height: 1.25;
 }
-h4,h5,h6{
-    color: black;
-    line-height: 1.25;
-}
 h3{
     font-size: 25px;
+    line-height: 1.25;
+}
+h4,h5,h6{
+    color: black;
     line-height: 1.25;
 }
 p {
@@ -48,6 +48,9 @@ nav {
 }
 button {
     cursor: pointer;
+}
+img {
+    width: 100%;
 }
 img {
     width: 100%;
@@ -80,6 +83,7 @@ header .row{
 }
 #Steps .row{
     display: flex;
+    flex-direction: row-reverse;
     align-items: center;
     justify-content: space-between;
 }
@@ -95,6 +99,7 @@ header .row{
 }
 #Testimonials .row{
     display: flex;
+    flex-direction: row-reverse;
     align-items: center;
     justify-content: space-between;
 }
@@ -115,6 +120,7 @@ footer .row{
     color: #6415ff;
     font-weight: 700;
     letter-spacing: 1.5px;
+    text-align: start;
 }
 .small_icon1{
     display: flex;
@@ -320,6 +326,7 @@ input::placeholder{
     margin-top: 40px;
 }
 .something12{
+    color: #7c8ba1;
     margin-top: 30px;
     text-align: center;
     max-width: 576px;
@@ -343,4 +350,37 @@ input::placeholder{
     100% {
       transform: scale(1);
     }
-  }
+}
+.QWwfix{
+    width: 100%;
+}
+.something13 {
+    width: 60%;
+    line-height: 1.1;
+    margin: 20px 0;
+}
+.something14 {
+    font-size: 18px;
+    width: 90%;
+    color: #7c8ba1;
+    line-height: 1.550;
+    font-weight: 500;
+}
+.bmarge {
+    margin-top: 20px;
+    margin-left: 0px;
+}
+.shadow{
+    border: rgb(229, 231, 235) 1px solid ;
+}
+.something60{
+    width: 25%;
+}
+.contact2{
+    display: flex;
+    align-items: center;
+}
+.something61{
+    display: flex;
+    align-items: center;
+}
