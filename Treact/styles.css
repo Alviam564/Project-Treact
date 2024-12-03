@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+@fontawesome url (https://fontawesome.com);
 * {  font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
@@ -114,7 +115,6 @@ header .row{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
 }
 footer .row{
     display: flex;
@@ -580,7 +580,53 @@ input::placeholder{
     color: #6415ff;
     background-color: #edf2f7;
 }
-
+.purple {
+    width: 100%;
+    padding: 96px 0;
+    background-color: #6415ff;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    border-radius: 50%;
+}
+.white{
+    color: white;
+    font-size: 33px;
+    width: 30%;
+}
+.something29{
+    display: flex;
+    justify-content: space-between;
+}.something30{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.Getting_startedbu1{
+    font-size: 20px;
+    font-weight: 500;
+    background: #f56565;
+    border-radius: 50px;
+    padding: 24px 35px;
+    margin-right: 10px;
+    color: white;
+    border: none;
+}
+.Getting_startedbu1:hover{
+    color:#f56565;
+    background: white;  
+    transition: all 300ms ease;
+}
+.Getting_startedbu2{
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 50px;
+    padding: 24px 35px;
+    margin-left: 10px;
+    color: white;
+    background-color: #6415ff;
+    border:  rgb(160, 174, 192) solid 1px;;
+}
 .something59{
     width: 50%;
     display: flex;
@@ -598,3 +644,25 @@ input::placeholder{
     display: flex;
     align-items: center;
 }
+fa {
+    font-family: var(--fa-style-family, "Font Awesome 6 Free");
+    font-weight: var(--fa-style, 900);
+}
+.fa-brands,
+.fab {
+  font-family: 'Font Awesome 6 Brands'; }
+.fa-facebook-f {
+    --fa: "\f39e";
+    color: white;
+    background-color: #0866ff;
+    font-size:x-large;}
+.fa-twitter {
+    --fa: "\f099"; 
+    color: #1c96e8;
+    background-color: white;
+    font-size: x-large;}
+.fa-youtube {
+    --fa: "\f167";
+    color: #f70000;
+    background-color: white;
+    font-size: x-large;}
