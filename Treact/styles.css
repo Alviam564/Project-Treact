@@ -1155,9 +1155,6 @@ fa {
         flex-direction: column;
         align-items: center;
     }
-    .features_img {
-        margin-left: 21px;
-    }
     .features_showcase_explaination {
         display: flex;
         flex-direction: column;
@@ -1315,9 +1312,6 @@ fa {
     .features_showcase {
         flex-direction: column;
         align-items: center;
-    }
-    .features_img {
-        margin-left: 21px;
     }
     .features_showcase_explaination {
         display: flex;
